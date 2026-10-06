@@ -1,0 +1,139 @@
+
+* { 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f6ff;
+    color: #243b5a;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.profile-table {
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #cbd9e9;
+    border-spacing: 5px;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(23, 70, 120, 0.12);
+    border-collapse: collapse;
+}
+
+
+#main_head {
+    text-align: center;
+}
+
+.main-head {
+    color: #174a8b;
+    font-size: 24px;
+    margin: 10px 0 20px;
+}
+
+.profile-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name-header {
+    background-color: #1769d2;
+    color: white;
+    padding: 22px;
+    font-size: 20px;
+}
+
+
+.photo-cell {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 320px;
+    object-fit: cover;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.personal-details {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.personal-details p {
+    margin: 16px 5px;
+    line-height: 1.6;
+}
+
+.personal-details b {
+    color: #174a8b;
+}
+
+
+.category {
+    width: 28%;
+    background-color: #e5f1ff;
+    color: #174a8b;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.list-cell {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.list-cell li {
+    padding: 2px 0;
+}
+
+.quote-cell {
+    padding: 25px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.quote-cell q {
+    color: #1769d2;
+    font-size: 18px;
+}
+
+
+.fun-fact {
+    padding: 25px;
+    line-height: 1.8;
+}
+
+.fun-fact del {
+    color: #777;
+}
+
+.fun-fact ins {
+    color: #e88718;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.github-header {
+    background-color: #1769d2;
+    padding: 22px;
+}
+
+.github-header a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.github-header a:hover {
+    color: #ffb45e;
+    text-decoration: underline;
+}
+
